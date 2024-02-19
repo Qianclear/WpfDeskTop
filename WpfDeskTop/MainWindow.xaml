@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfDeskTop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDeskTop"
+        mc:Ignorable="d"
+        Title="WpfActiveDesk" Height="300" Width="400">
+    <Grid>
+        <Button x:Name="ChoiceDeskBg" Margin="30,30,266,200" Click="ChoiceDeskBg_Click" >选择</Button>
+        <Button x:Name="StopWindow" Margin="30,119,266,120" Click="StopWindow_Click" >停止</Button>
+    </Grid>
+</Window>
